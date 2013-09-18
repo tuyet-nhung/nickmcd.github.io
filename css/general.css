@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ html { 
+background-image: url(../images/bg-image-1.jpg);
+width: 100%;
+}
+
+
+* { 
+padding: 0; 
+margin: 0; 
+}
+body { 
+padding: 0.06em;
+
+}
+
+ #photo { 
+width: 100%;
+}
+
+
+h1 { 
+font-family: 'Gudea', sans-serif;
+font-size: 2em;
+line-height: 1.8em;
+color: #000;
+}
+
+p { 
+color: #333; 
+font-family: 'Istok Web', sans-serif; 
+font-size: 0.8em; 
+line-height: 1.3em; 
+margin-bottom: 1.5em;
+-webkit-font-smoothing: antialiased;
+}
+
+a { 
+color: #000; 
+font-weight: bold; 
+text-decoration: none;
+ 
+}
+
+a:hover {
+color:#FF00FF;
+}
+
+
+#logo { 
+width: 3em; 
+padding: 1em 0 0 0; 
+margin: 0 auto 0 0.6em; 
+}
+
+#about { 
+width: 22.5em; 
+padding: 0 0 0 10em;
+margin: 6.25em 3.125em 0 auto ;
+}
+
+
+li { 
+   text-decoration: none;
+}
+
+
+#social-list li {
+text-decoration: none;
+display: inline;
+list-style-type: none;
+padding-right: 1.25em;
+}
+
+#social-list-two li {
+display: none;
+}
+
+
+@media (max-width: 49em) {
+html { 
+background-color: #999;
+background-image: url(../images/bg-image-2.jpg);
+}
+
+#about { 
+position: relative; 
+width: auto; padding: 
+1.25em; margin: 0 ; 
+}
+
+body { 
+padding: 0.0625em;
+
+}
+
+li { 
+text-align: center;
+padding: 0.25em;
+text-decoration: none;
+}
+
+
+h1 { 
+font-family: 'Gudea', sans-serif;
+font-size: 2em;
+line-height: 1.8em;
+color: #000;
+}
+p { 
+color: #000; 
+font-family: 'Istok Web', sans-serif; 
+font-size: 0.8em; 
+line-height: 1.3em; 
+margin-bottom: 1.5em;
+-webkit-font-smoothing: antialiased;
+}
+}
